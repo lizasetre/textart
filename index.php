@@ -1,4 +1,32 @@
-<svg viewBox = "0 0 1400 600">
+<html>
+	<head>
+		<style>
+      body, 
+html {
+  height: 200%;
+}
+body {
+  text-align: center;
+}
+svg {
+  position: relative;
+  top: 10%;
+  height: 80%;
+}
+svg path {
+  fill: rgba(0,0,0,0);
+}
+svg text {
+  font-family: Verdana, sans-serif;
+  font-size: 15px;
+  fill: #333;
+}
+      </style>
+	</head>
+  <body>
+		<table>
+		<th>
+      <svg viewBox = "0 0 1400 600">
   <path 
     id = "heart"
     transform = "matrix(1, 0, 0, 1, 50, 0)"
